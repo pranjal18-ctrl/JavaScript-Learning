@@ -45,26 +45,33 @@
 
 //-------------------------- Switch Statement ----------------------//
 
-const day = "Friday & Monday"
-switch(day){
-    case "Monday" :
-        console.log('Chest & Tricep Day')
-        break;
-    case "Tuesday" :
-        console.log('Back & Bicep Day')
-        break;
-    case "Wednesday" :
-        console.log('Shoulder & Arms Day')
-        break;
-    case "Thursday" :
-        console.log('Chest & Tricep Day')
-        break;
-    case "Friday" :
-        console.log('Back & Bicep Day')
-        break;
-    case "Saturday" :
-        console.log('Leg & Abs Day')
-        break;
-    default:
-        console.log('Please enter a valid day');
-}
+// const day = "Friday & Monday"
+// switch(day){
+//     case "Monday" :
+//         console.log('Chest & Tricep Day')
+//         break;
+//     case "Tuesday" :
+//         console.log('Back & Bicep Day')
+//         break;
+//     case "Wednesday" :
+//         console.log('Shoulder & Arms Day')
+//         break;
+//     case "Thursday" :
+//         console.log('Chest & Tricep Day')
+//         break;
+//     case "Friday" :
+//         console.log('Back & Bicep Day')
+//         break;
+//     case "Saturday" :
+//         console.log('Leg & Abs Day')
+//         break;
+//     default:
+//         console.log('Please enter a valid day');
+// }
+
+
+
+//--------------------- Ternary Operator Condition (Extra) ----------------------------------------------//
+
+const age = 18
+console.log("You can", age>=18 ? "drive":"Not drive")
