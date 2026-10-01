@@ -58,16 +58,16 @@ console.log("After Reversing =",ReverseString)
 // Print prime numbers => 2,3,5,7,11,13,17,.........
 
 /*
-for(let num=2; num<=100; num++){
-    let isPrime = true                        
-    for(let i=2; i<num; i++){                 
-        if(num%i==0){
-        isPrime = false
-        break;
+for(let num=2; num<=100; num++){            // Yahaan num variable ko 2 se shuru kiya gaya hai, aur 100 tak loop chalega
+    let isPrime = true                      // Yahaan isPrime variable ko true set kiya gaya hai, jisse hum check karenge ki num prime hai ya nahi  
+    for(let i=2; i<num; i++){               // Yahaan i variable ko 2 se shuru kiya gaya hai, aur num ke number tak loop chalega   
+        if(num%i==0){                       // Yahaan check kiya ja raha hai ki num ko i se divide karne par remainder 0 aata hai ya nahi, agar aata hai to iska matlab num prime nahi hai
+        isPrime = false                     // Yahaan isPrime variable ko false set kiya gaya hai, jisse hum pata laga sakte hain ki num prime nahi hai
+        break;                              // Yahaan break statement ka use kiya gaya hai, jisse loop turant terminate ho jaye aur aage ke iterations na chale
         }
     }
-    if(isPrime){
-        console.log(num)
+    if(isPrime){                            // Yahaan check kiya ja raha hai ki isPrime variable true hai ya nahi, agar true hai to iska matlab num prime hai
+        console.log(num)                    // Yahaan num variable ko print kiya gaya hai, jisse hum prime numbers dekh sakte hain
     }
 }
 */
@@ -75,16 +75,17 @@ for(let num=2; num<=100; num++){
 
 // Print Star Pattern
 
+/*
+let rows = 5;                // Yahaan rows variable me kitni rows print karni hai, uska number diya gaya hai
 
-let rows = 5;
-
-for (let i = 1; i <= rows; i++) {
-    let rowString = "";
+for (let i = 1; i <= rows; i++) {           // Yahaan i variable ko 1 se shuru kiya gaya hai, aur rows ke number tak loop chalega
+    let rowString = "";                     // Yahaan rowString variable me har row ke liye ek string store ki jayegi
 
     // Jitni row ka number hai, utne hi stars ek string me jodenge
-    for (let j = 1; j <= i; j++) {
-        rowString += "* ";
+    for (let j = 1; j <= i; j++) {           // Yahaan j variable ko 1 se shuru kiya gaya hai, aur i ke number tak loop chalega
+        rowString += "* ";                   // Yahaan rowString variable me har star ke baad ek space add kiya gaya hai
     }
 
     console.log(rowString);
 }
+*/
