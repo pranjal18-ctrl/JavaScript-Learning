@@ -89,3 +89,38 @@ for (let i = 1; i <= rows; i++) {           // Yahaan i variable ko 1 se shuru k
     console.log(rowString);
 }
 */
+
+
+//-------------------------------------------------- For-In Loop --------------------------------------------------//
+
+// Print all properties of an object
+
+/*
+let person = {                 // for-in loop m pahele ek object banaya gaya hai, jisme name, age, gender aur hobby ke properties hain
+    name: "Pranjal",
+    age: 19,
+    gender: "Male",
+    hobby: "Coding",
+}
+for(let i in person){          // Yahaan i variable ko in se shuru kiya gaya hai, aur person ke object tak loop chalega ("in" means "inside" or person means "object")
+    console.log(i)             // ye i variable sirf object jo ki person name se defined hai usme bss properties ke name ko print karega unki values ko print nahi karega
+}
+for(let i in person){
+    console.log(i,":",person[i])            // Yahaan i variable ke sath person[i] ka use kiya gaya hai, jisse hum object ke properties ke values ko print kar sakte hain
+}
+*/
+
+
+// ------------------------------------ For-Of Loop ------------------------------------//
+
+// Print all literables of a string
+
+
+let string = "JavaScript"
+let string2 = "Python"
+for(let i of string){          // ye for-of ka loop sirf string ke andar ke letters ko print karega, aur ye string ke andar ke letters ko ek ek karke print karega
+    console.log(i)       
+}
+for(let i of string2){          // ye for-of ka loop sirf string2 ke andar ke letters ko print karega, aur ye string2 ke andar ke letters ko ek ek karke print karega
+    console.log(i)       
+}
